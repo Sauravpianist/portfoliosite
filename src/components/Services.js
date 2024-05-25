@@ -10,12 +10,12 @@ import {fadeIn} from '../variants'
 const services = [
   {
     name: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id et placeat odio debitis consectetur sequi illo consequatur.',
+    description: 'Passionate about creating seamless digital experiences, I am a dedicated UI/UX developer with a keen eye for design and a knack for transforming complex concepts into intuitive, user-friendly interfaces.',
     link: 'learn more',
   },
   {
     name: 'Development',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id et placeat odio debitis consectetur sequi illo consequatur.',
+    description: 'Driven by a passion for problem-solving and a love for technology, I am a results-oriented full stack developer with a proven track record of delivering robust and scalable solutions.',
     link: 'learn more',
   },
   {
@@ -37,7 +37,7 @@ const Services = () => {
         viewport={{once: false,amount:0.3}}
         className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 text-accent mb-6'>What I do.</h2>
-          <h3 className='h3 max-w-[455px] mb-16'>I'm a pianist with over 6 years of experience.</h3>
+          <h3 className='h3 max-w-[455px] mb-16'>I designing intuitive user interfaces or architecting robust server-side solutions, I thrive on the challenge of building dynamic and responsive web experiences.</h3>
           <button className='btn btn-sm '>see my work</button>
         </motion.div>
         {/* service */}

@@ -33,16 +33,16 @@ const About = () => {
 
       className='flex-1'>
         <h2 className='h2 text-accent'>About me.</h2>
-        <h3 className='h3 mb-4'>I'm a pianist with over 6 years of experience.</h3>
+        <h3 className='h3 mb-4'>I'm a Full Stack Developer with over 2 years of experience.</h3>
         <p className='mb-6'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium aut eveniet? Ab necessitatibus eaque, doloribus 
+        Hello! I'm Saurav Pun Magar, a full stack developer. I specialize in both frontend and backend development, crafting seamless and efficient web applications from start to finish. With expertise in languages like HTML, CSS, JavaScript, Python, and frameworks such as React, Node.js, and Django, I bring ideas to life by blending creativity with technical precision. Whether it's designing intuitive user interfaces or architecting robust server-side solutions, I thrive on the challenge of building dynamic and responsive web experiences.
         </p>
         {/* stats */}  
           <div className='flex gap-x-6 lg:gap-x-10  mb-12'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
               {inView ? <CountUp start = {0} end={12} duration={3}/>: null}
-              K+
+              +
               </div>
             <div className='font-primary text-sm tracking-[2px]'>Satisfied <br />
             Clients
@@ -50,8 +50,8 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-              {inView ? <CountUp start = {0} end={7} duration={3}/>: null}
-              K+
+              {inView ? <CountUp start = {0} end={6} duration={3}/>: null}
+              +
               </div>
             <div className='font-primary text-sm tracking-[2px]'>Projects <br />
             Completed
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-              {inView ? <CountUp start = {0} end={6} duration={3}/>: null}
+              {inView ? <CountUp start = {0} end={2} duration={3}/>: null}
               </div>
             <div className='font-primary text-sm tracking-[2px]'>Years of <br />
             Experience

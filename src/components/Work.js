@@ -18,7 +18,11 @@ const Work = () => {
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, culpa iure quasi perferendis officiis itaque quisquam praesentium autem, quidem voluptate repudiandae quam dolorem temporibus alias nam. Possimus laudantium aperiam reiciendis nemo, ad expedita non!
+            <h2 className='h2 leading-tight'>
+            News Sharing Website
+            </h2>
+            <p className='max-w-sm mb-16'>Creating a news website using an API to provide up-to-date and
+dynamic content to your users.
             </p>
             <button className='btn btn-sm'>View All Projects</button>
           </div>
@@ -36,12 +40,12 @@ const Work = () => {
             <span className='text-gradient'>UI/UX Design</span>
               </div>
             {/* title */}
-            <div>
+            {/* <div>
               <span>Project Title</span>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div>2</div>
+        {/* <div>2</div> */}
       </div>
     </div>
   </section>;
